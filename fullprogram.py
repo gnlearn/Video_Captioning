@@ -68,7 +68,6 @@ data, error = get_transcription_results_url(audio_url)
 
 #convert text json from assembly AI to captions using moviepy, new fonts were added in type-ghostwrite.xml file of magick program files
 
-clip = VideoFileClip("IMG_6100.mp4")
 txt_clips = [clip]
 
 user = input("Which Font? (albas, orange_juice, and proximanova are 3rd party fonts installed): ")
